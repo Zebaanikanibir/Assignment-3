@@ -14,7 +14,7 @@ var meter = kilometer * 1000
     }else{return "error!try again"}
 
 }
-var totalmeter = kilometerToMeter(-45);
+var totalmeter = kilometerToMeter(45);
 console.log(totalmeter);
 
 
@@ -36,7 +36,7 @@ function budgetCalculator(watch, mobile, laptop){
         }else{return "it can not be negative!unexpected value"}
 
 }
-    var totalPrice = budgetCalculator(4, 7, -2);
+    var totalPrice = budgetCalculator(4, 7, 2);
      console.log(totalPrice);
 
 
@@ -74,7 +74,7 @@ function hotelCost(n){
     }
 
 }
-var totalCost = hotelCost(-11);
+var totalCost = hotelCost(11);
 console.log(totalCost);
 
 
