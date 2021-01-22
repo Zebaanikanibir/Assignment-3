@@ -81,9 +81,6 @@ console.log(totalCost);
 
 
 
-
-
-
 // megaFriend section starts from here...
 
 function megaFriend(n){
