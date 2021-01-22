@@ -1,6 +1,8 @@
 
- 
- 
+//  https://github.com/Zebaanikanibir/Assignment-3
+
+// kilometerToMeter section starts from here
+
 
 function kilometerToMeter(kilometer){
 
@@ -9,17 +11,17 @@ var meter = kilometer * 1000
 
         return meter;
 
-    }else{return "can not allow"}
+    }else{return "error!try again"}
 
 }
 var totalmeter = kilometerToMeter(-45);
-// console.log(totalmeter);
+console.log(totalmeter);
 
 
 
 
 
-// calculator start from here
+// budgetCalculator section starts from here
 
 function budgetCalculator(watch, mobile, laptop){ 
 
@@ -31,18 +33,18 @@ function budgetCalculator(watch, mobile, laptop){
         if (watch >0 & mobile > 0 & laptop > 0){
         
             return price; 
-        }else{return "it can not be negative.unexpected value"}
+        }else{return "it can not be negative!unexpected value"}
 
 }
-    var totalPrice = budgetCalculator(4, 7, 2);
-     // console.log(totalPrice);
+    var totalPrice = budgetCalculator(4, 7, -2);
+     console.log(totalPrice);
 
 
 
 
 
 
-// hotelCost start from here
+// hotelCost section starts from here
 
 function hotelCost(n){
     if(n > 0){
@@ -68,12 +70,12 @@ function hotelCost(n){
     
             return cost;
     }else{
-        return "It can not be negative.try again"
+        return "It can not be negative!try again"
     }
 
 }
-var totalCost = hotelCost(11);
-// console.log(totalCost);
+var totalCost = hotelCost(-11);
+console.log(totalCost);
 
 
 
@@ -82,7 +84,7 @@ var totalCost = hotelCost(11);
 
 
 
-// megaFriend...
+// megaFriend section starts from here...
 
 function megaFriend(n){
 
@@ -98,4 +100,4 @@ function megaFriend(n){
 
   var names = ['Nibir', 'Nanjiba', 'Zash', 'Lily']
   var longestName =  megaFriend(names);
-//   console.log(longestName);
+  console.log(longestName);
