@@ -1,7 +1,7 @@
 
 //  https://github.com/Zebaanikanibir/Assignment-3
 
-// kilometerToMeter section starts from here
+// kilometerToMeter section starts from here....
 
 
 function kilometerToMeter(kilometer){
@@ -36,8 +36,8 @@ function budgetCalculator(watch, mobile, laptop){
         }else{return "it can not be negative!unexpected value"}
 
 }
-    var totalPrice = budgetCalculator(4, 7, 2);
-     console.log(totalPrice);
+var totalPrice = budgetCalculator(4, 7, 2);
+console.log(totalPrice);
 
 
 
@@ -98,6 +98,6 @@ function megaFriend(n){
         return megaName;
 }
 
-  var names = ['Nibir', 'Nanjiba', 'Zash', 'Lily']
-  var longestName =  megaFriend(names);
-  console.log(longestName);
+var names = ['Nibir', 'Nanjiba', 'Zash', 'Lily']
+var longestName =  megaFriend(names);
+ console.log(longestName);
